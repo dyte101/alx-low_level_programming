@@ -10,8 +10,8 @@
 */
 int main(void)
 {
-	char sentence_arr[] = "and that piece of art is useful\" - Dora Korpar,\
-	 2015-10-19\n";
-	write(2, sentence_arr, sizeof(sentence_arr));
+	char s[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	/* */
+	write(2, s, sizeof(s));
 	return (1);
 }
