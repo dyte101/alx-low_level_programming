@@ -12,13 +12,17 @@
 
 int main(void)
 {
-	for (char aplhabet_lower = 'a'; aplhabet_lower <= 'z'; aplhabet_lower++)
+
+	char alphabet_lower;
+	char alphabet_upper;
+
+	for (alphabet_lower = 'a'; alphabet_lower <= 'z'; alphabet_lower++)
 	{
-		putchar(aplhabet_lower);
+		putchar(alphabet_lower);
 	}
-	for (char aplhabet_upper = 'A'; aplhabet_upper <= 'Z'; aplhabet_upper++)
+	for (alphabet_upper = 'A'; alphabet_upper <= 'Z'; alphabet_upper++)
 	{
-		putchar(aplhabet_upper);
+		putchar(alphabet_upper);
 	}
 
 	putchar('\n');

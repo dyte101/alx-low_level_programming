@@ -12,9 +12,11 @@
 
 int main(void)
 {
-	for (char aplhabet = 'a'; aplhabet <= 'z'; aplhabet++)
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		putchar(aplhabet);
+		putchar(alphabet);
 	}
 	putchar('\n');
 

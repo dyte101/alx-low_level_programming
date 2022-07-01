@@ -12,10 +12,12 @@
 
 int main(void)
 {
-	for (char aplhabet = 'a'; aplhabet <= 'z'; aplhabet++)
+	char alphabet;
+
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		if (aplhabet != 'q' && aplhabet != 'e')
-			putchar(aplhabet);
+		if (alphabet != 'q' && alphabet != 'e')
+			putchar(alphabet);
 	}
 	putchar('\n');
 

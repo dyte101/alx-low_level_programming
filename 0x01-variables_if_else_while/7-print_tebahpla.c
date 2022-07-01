@@ -12,9 +12,11 @@
 
 int main(void)
 {
-	for (char aplhabet_lower = 'z'; aplhabet_lower >= 'a'; aplhabet_lower--)
+	char alphabet_lower;
+
+	for (alphabet_lower = 'z'; alphabet_lower >= 'a'; alphabet_lower--)
 	{
-		putchar(aplhabet_lower);
+		putchar(alphabet_lower);
 	}
 
 	putchar('\n');
