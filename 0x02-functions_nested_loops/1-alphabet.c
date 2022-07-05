@@ -2,12 +2,11 @@
 /**
 * main - The main entry point of the program
 *
-* Description: Use putchar to print alphabets
+* Description: Prints alphabet
 *
 * Return: 0
 */
 
-void print_alphabet(void);
 
 int main(void)
 {
@@ -15,14 +14,20 @@ int main(void)
 	return (0);
 }
 
+/**
+* print_alphabet - function
+*
+* Description: Prints alphabet
+*
+* Return: 0
+*/
 void print_alphabet(void)
 {
 	char alphabet;
-	
+
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		_putchar(alphabet);
 	}
 	_putchar('\n');
-	
 }
