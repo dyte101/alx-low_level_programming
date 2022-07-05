@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	char word[10] = "_putchar";
+	char word[9] = "_putchar";
 	int index = 0;
 
-	while (index < 9)
+	while (index < 8)
 	{
 		_putchar(word[index]);
 		index++;
