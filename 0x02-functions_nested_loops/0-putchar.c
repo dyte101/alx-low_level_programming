@@ -10,11 +10,12 @@
 int main(void)
 {
 	char word[10] = "_putchar";
-	int i;
+	int index = 0;
 
-	for (i = 0; i < 10; i++)
+	while (index < 9)
 	{
-		_putchar(word[i]);
+		_putchar(word[index]);
+		index++;
 	}
 	_putchar('\n');
 	return (0);
