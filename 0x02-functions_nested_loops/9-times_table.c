@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-*
 * times_table - main entry
 *
 * Description: prints the 9 times table
@@ -25,7 +24,7 @@ void times_table(void)
 			{
 				_putchar(' ');
 				_putchar('0' + value);
-			} else 
+			} else
 			{
 				_putchar('0' + value / 10);
 				_putchar('0' + value % 10);
