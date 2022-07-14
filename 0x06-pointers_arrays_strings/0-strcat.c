@@ -1,15 +1,16 @@
 #include "main.h"
 /**
  * *_strcat - concatenates two strings
- * @src: frist string 
+ * @src: frist string
  * @dest: second string
  * Return: a concatenated string
  */
-char *_strcpy(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int src_index = -1, dest_index = 0;
 
-	for (; dest[dest_index] != '\0'; dest_index++);
+	for (; dest[dest_index] != '\0'; dest_index++)
+	;
 
 	do {
 		src_index++;

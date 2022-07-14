@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *_strncpy - copies a string
- * @src: frist string 
+ * @src: frist string
  * @dest: second string
  * @n: number of bytes to be copied
  * Return: a concatenated string

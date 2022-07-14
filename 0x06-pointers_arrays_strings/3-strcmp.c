@@ -1,11 +1,11 @@
 #include "main.h"
 /**
  * *_strcmp - compares two strings
- * @s1: frist string 
+ * @s1: frist string
  * @s2: second string
  * Return: 0
  */
-char *_strcpy(char *s1, char *s2)
+char *_strcmp(char *s1, char *s2)
 {
 	int index = 0;
 
