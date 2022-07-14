@@ -6,12 +6,12 @@
  */
 char *leet(char *str)
 {
-	int i = 0, j = 0;
+	int i, *j;
 	char lower_arr = "aeotl", upper_arr = "AEOTL", num_arr = "43071";
 
-	for (; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (; j < 5; j++)
+		for (j = 0; j < 5; j++)
 		{
 			if (str[i] == lower_arr[j] || str[i] == upper_arr[j])
 			{
