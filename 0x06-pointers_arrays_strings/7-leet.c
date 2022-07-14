@@ -6,7 +6,7 @@
  */
 char *leet(char *str)
 {
-	int i, *j;
+	int i, j;
 	char lower_arr = "aeotl", upper_arr = "AEOTL", num_arr = "43071";
 
 	for (i = 0; str[i] != '\0'; i++)
