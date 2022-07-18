@@ -1,15 +1,15 @@
 #include <stdio.h>
 /**
- * _*strchr - locates a character in a string
+ * _strchr - locates a character in a string
  * @s: string
  * @c: character to find
- * Return a pointer to the first occurence of the character
+ * Return: a pointer to the first occurence of the character
  *
  */
 
 char *_strchr(char *s, char c)
 {
-	while(s != '\0' && s != c)
+	while (s != '\0' && s != c)
 	{
 		s++;
 	}
