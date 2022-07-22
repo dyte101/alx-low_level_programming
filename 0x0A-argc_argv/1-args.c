@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the name of the file
+ * main - prints the number of arguments
  * @argc: argument counter
  * @argv: agument array
  * Return: 0
@@ -8,6 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
+	printf("%d\n", argc - 1);
+
 	return (0);
 }
