@@ -14,7 +14,6 @@ int main(int argc, char const *argv[])
 	if (argc == 2)
 	{
 		money = atoi(argv[1]);
-
 		while (money > 0)
 		{
 			change++;
@@ -40,21 +39,14 @@ int main(int argc, char const *argv[])
 				continue;
 			}
 			else if ((money - 1) >= 0)
-			{
 				money -= 1;
 				continue;
-			}
-
 			money--;
 		}
-
 		printf("%d\n", change);
 		return (0);
-		
 	}
-	else 
-	{
+	else
 		printf("Error\n");
 		return (1);
-	}
 }
