@@ -42,11 +42,6 @@ int main(int argc, char const *argv[])
 			money -= 2;
 			continue;
 		}
-		if ((money - 1) >= 0)
-		{
-			money -= 1;
-			continue;
-		}
 		money--;
 	}
 
